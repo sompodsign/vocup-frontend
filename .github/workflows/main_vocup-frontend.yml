@@ -58,5 +58,5 @@ jobs:
           app-name: 'vocup-frontend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37C45C2E8CEF45C58AAD09FF3ACF841E }}
-          package: ./build/*
-          run: npm run start
+          package: .
+          run: cd build && npm run start
