@@ -1,11 +1,9 @@
 import axios from 'axios';
 
-const serverApi = 'https://shampad.live/api'
-const localApi = 'http://192.168.31.38/api'
+const baseApi = process.env.REACT_APP_BASE_API
 
 const client = axios.create({
-    baseURL: serverApi,
-    // baseURL: localApi,
+    baseURL: baseApi,
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
