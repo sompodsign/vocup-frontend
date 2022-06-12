@@ -30,7 +30,6 @@ jobs:
           app_location: "./"
           api_location: ""
           output_location: "./build"
-          run: CI = false npm run build
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
