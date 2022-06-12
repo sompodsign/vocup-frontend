@@ -1,0 +1,57 @@
+input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.post-header {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.short-desc {
+  font-size: 14px;
+  color: rgb(64, 83, 121);
+  line-height: 19px;
+}
+
+/* For all <code> */
+code {
+  font-family: MyFancyCustomFont, monospace;
+  font-size: inherit;
+}
+
+/* Code in text */
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #ffeff0;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
+
+/*pre code {*/
+/*  background-color: #e7e3e3;*/
+/*  border: 1px solid #999;*/
+/*  display: block;*/
+/*  padding: 5px;*/
+/*  border-radius: 3px;*/
+/*  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;*/
+
+/*}*/
+
+pre {
+  background-color: #F6F6F6;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+
+}
+
+.selected-tag {
+  background-color: #9CA3AF;
+}
